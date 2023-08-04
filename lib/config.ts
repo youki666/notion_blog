@@ -46,6 +46,8 @@ export const inversePageUrlOverrides = invertPageUrlOverrides(pageUrlOverrides)
 export const environment = process.env.NODE_ENV || 'development'
 export const isDev = environment === 'development'
 
+
+export const year: number = new Date().getFullYear()
 // general site config
 export const name: string = getSiteConfig('name')
 export const author: string = getSiteConfig('author')
